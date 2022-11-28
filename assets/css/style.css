@@ -57,7 +57,7 @@
 
 /* line 69, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .theme-bg {
-  background: #ff3514;
+  background: #1b7660;
 }
 
 /* line 72, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
@@ -83,32 +83,32 @@
 
 /* line 87, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .theme-color {
-  color: #ff3514;
+  color: #1b7660;
 }
 
 /* line 50, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_variables.scss */
 .boxed-btn {
   background: #fff;
-  color: #ff3514 !important;
+  color: #1b7660 !important;
   display: inline-block;
   padding: 18px 44px;
   font-family: "Muli", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #ff3514;
+  border: 1px solid #1b7660;
   letter-spacing: 3px;
   text-align: center;
-  color: #ff3514;
+  color: #1b7660;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 /* line 67, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_variables.scss */
 .boxed-btn:hover {
-  background: #ff3514;
+  background: #1b7660;
   color: #fff !important;
-  border: 1px solid #ff3514;
+  border: 1px solid #1b7660;
 }
 
 /* line 72, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_variables.scss */
@@ -495,7 +495,7 @@ hr {
 /* line 236, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
-  background: #ff3500;
+  background: #1b7660;
 }
 
 /* line 246, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
@@ -510,7 +510,7 @@ hr {
   font-size: 16px;
   background-size: 200%;
   transition: 0.6s;
-  background-image: linear-gradient(to left, #ff3514, #d62d12, #ff3514);
+  background-image: linear-gradient(to left, #1b7660, #03c493, #1b7660);
   background-position: right;
 }
 
@@ -543,16 +543,16 @@ hr {
   text-transform: capitalize;
   border-radius: 0px;
   cursor: pointer;
-  color: #ff3514;
+  color: #1b7660;
   display: inline-block;
   font-size: 16px;
-  border: 1px solid #ff3514;
+  border: 1px solid #1b7660;
   background: none;
 }
 
 /* line 290, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .btn2 i {
-  color: #ff3514;
+  color: #1b7660;
   font-size: 13px;
   font-weight: 500;
   position: relative;
@@ -570,7 +570,7 @@ hr {
 
 /* line 305, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .btn2:hover {
-  color: #ff3514;
+  color: #1b7660;
 }
 
 /* line 311, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
@@ -611,7 +611,7 @@ hr {
 
 /* line 336, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .white-btn::before {
-  background: #ff3514;
+  background: #1b7660;
   color: #fff !important;
 }
 
@@ -663,7 +663,7 @@ hr {
 
 /* line 380, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .submit-btn2 {
-  background: #ff3514;
+  background: #1b7660;
   width: 100%;
   height: 60px;
   padding: 10px 20px;
@@ -713,7 +713,7 @@ hr {
   top: 0;
   width: 101%;
   height: 101%;
-  background: #ff3514;
+  background: #1b7660;
   z-index: -1;
   transition: transform 0.5s;
   transition-timing-function: ease;
@@ -760,7 +760,7 @@ hr {
 /* line 466, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 #scrollUp,
 #back-top {
-  background: #ff3514;
+  background: #1b7660;
   height: 50px;
   width: 50px;
   right: 31px;
@@ -2535,7 +2535,7 @@ hr {
   position: relative;
   border-style: solid;
   border-width: 1px;
-  border-top-color: #ff3514;
+  border-top-color: #1b7660;
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -3039,7 +3039,7 @@ hr {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 22px;
-  color: #ff3514;
+  color: #1b7660;
   text-transform: capitalize;
   display: inline-block;
   color: #fff;
@@ -3099,7 +3099,7 @@ hr {
 
 /* line 1016, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .element {
-  background-color: #ff3514;
+  background-color: #1b7660;
   color: white;
   margin-right: 5px;
   margin-left: 5px;
@@ -3152,14 +3152,14 @@ hr {
 
 /* line 1065, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .all-btn {
-  color: #ff3514;
+  color: #1b7660;
   text-decoration: underline;
   font-size: 16px;
 }
 
 /* line 1069, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .all-btn:hover {
-  color: #ff3514;
+  color: #1b7660;
   text-decoration: underline;
   letter-spacing: 1px;
 }
@@ -3194,7 +3194,7 @@ hr {
 
 /* line 69, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .theme-bg {
-  background: #ff3514;
+  background: #1b7660;
 }
 
 /* line 72, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
@@ -3220,7 +3220,7 @@ hr {
 
 /* line 87, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .theme-color {
-  color: #ff3514;
+  color: #1b7660;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3343,7 +3343,7 @@ hr {
 
 /* line 89, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_headerMenu.scss */
 .main-header .main-menu ul li:hover > a {
-  color: #ff3514;
+  color: #1b7660;
 }
 
 /* line 94, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_headerMenu.scss */
@@ -3505,7 +3505,7 @@ hr {
 
 /* line 243, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-  background-color: #ff3514 !important;
+  background-color: #1b7660 !important;
 }
 
 /* line 247, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_headerMenu.scss */
@@ -3516,7 +3516,7 @@ hr {
 /* line 250, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #ff3514;
+  color: #1b7660;
 }
 
 /* line 254, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_headerMenu.scss */
@@ -3986,7 +3986,7 @@ hr {
 
 /* line 35, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
 .about-low-area .experience span {
-  color: #ff3514;
+  color: #1b7660;
   font-size: 60px;
   font-weight: 500;
 }
@@ -4066,7 +4066,7 @@ hr {
   width: 179px;
   height: 180px;
   padding: 31px 10px;
-  background: #ff3514;
+  background: #1b7660;
   text-align: center;
 }
 
@@ -4086,7 +4086,7 @@ hr {
   height: 0;
   border-style: solid;
   border-width: 0 0 31px 34px;
-  border-color: transparent transparent #ff3314 transparent;
+  border-color: transparent transparent #1b7660 transparent;
   position: absolute;
   top: -29px;
   content: "";
@@ -4745,13 +4745,13 @@ hr {
 /* line 267, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_contact_form.scss */
 .man-slider-active button.slick-arrow i {
   font-size: 20px;
-  color: #ff3514;
+  color: #1b7660;
 }
 
 /* line 282, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_contact_form.scss */
 .man-slider-active button.slick-next {
   right: 0px;
-  background: #ff3514;
+  background: #1b7660;
 }
 
 /* line 286, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_contact_form.scss */
@@ -5018,7 +5018,7 @@ hr {
 .service-area .single-main .single-wrapper .services-btn a {
   cursor: pointer;
   padding: 36px 0;
-  background: #ff3514;
+  background: #1b7660;
   line-height: 1;
   width: 100%;
   display: block;
@@ -5249,7 +5249,7 @@ hr {
 
 /* line 34, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_footer.scss */
 .footer-area .footer-tittle ul li a:hover {
-  color: #ff3514;
+  color: #1b7660;
   padding-left: 5px;
 }
 
@@ -5284,7 +5284,7 @@ hr {
   border: 0;
   cursor: pointer;
   padding: 15px 22px;
-  background: #ff3514;
+  background: #1b7660;
   line-height: 1;
   width: 100%;
   display: block;
@@ -5294,7 +5294,7 @@ hr {
 
 /* line 74, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_footer.scss */
 .footer-area .info.error {
-  color: #ff3514;
+  color: #1b7660;
 }
 
 /* line 80, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_footer.scss */
@@ -5328,7 +5328,7 @@ hr {
 
 /* line 98, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_footer.scss */
 .footer-bottom-area .footer-copy-right p a:hover {
-  color: #ff3514;
+  color: #1b7660;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5386,7 +5386,7 @@ hr {
 
 /* line 141, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_footer.scss */
 .footer-social > a:hover {
-  color: #ff3514;
+  color: #1b7660;
 }
 
 /* line 4, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_blog_page.scss */
@@ -5468,7 +5468,7 @@ hr {
 
 /* line 45, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_blog_page.scss */
 .home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 a:hover {
-  color: #ff3514;
+  color: #1b7660;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -5538,7 +5538,7 @@ hr {
 /* line 103, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_blog_page.scss */
 .blog_area a:hover,
 .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #ff3514 0%, #ff3514 99%);
+  background: -webkit-linear-gradient(131deg, #1b7660 0%, #1b7660 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -6128,7 +6128,7 @@ hr {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #ff3514;
+  background-color: #1b7660;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -6223,7 +6223,7 @@ hr {
 
 /* line 783, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_blog_page.scss */
 .blog_right_sidebar .search_widget .input-group button {
-  background: #ff3514;
+  background: #1b7660;
   border-left: 0;
   border: 1px solid #f0e9ff;
   padding: 4px 15px;
@@ -6361,7 +6361,7 @@ hr {
 
 /* line 934, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_blog_page.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #ff3514;
+  background: #1b7660;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
