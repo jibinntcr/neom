@@ -5405,6 +5405,7 @@ hr {
 
 /* line 10, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_blog_page.scss */
 .home-blog-area .home-blog-single .blog-img-cap .blog-img img {
+  border-radius: 25px;
   width: 100%;
   -webkit-transform: scale 1;
   -moz-transform: scale 1;
@@ -5415,7 +5416,7 @@ hr {
 
 /* line 16, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_blog_page.scss */
 .home-blog-area .home-blog-single .blog-img-cap .blog-cap {
-  background: #fff;
+  /* background: #fff; */
   padding: 22px 29px 11px 9px;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
@@ -7564,7 +7565,7 @@ del {
 /* line 185, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_elements.scss */
 .genric-btn.primary {
   color: #fff;
-  background: #0b6e57;
+  background: #03c596;
   border: 1px solid transparent;
 }
 

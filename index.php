@@ -62,9 +62,10 @@ session_start()
                                         </li>
                                     </ul>
                                 </div>
-                                <!-- <div class="header-info-right">
-                                    <a href="#" class="btn">Free Quote <i class="ti-arrow-right"></i></a>
-                                </div> -->
+                                <div class="header-info-right">
+                                    <a href="#" class="genric-btn primary e-large">Product Catalogue</a>
+                                    <!-- <a href="#" class="send-btn">Product Catalogue <i class="ti-arrow-right"></i></a> -->
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -87,7 +88,7 @@ session_start()
                                             <ul id="navigation">
                                                 <li class="active"><a href="index.php">Home</a></li>
                                                 <li><a href="#about">About</a></li>
-                                                <li><a href="#features">Product</a></li>
+                                                <li><a href="product.html">Product</a></li>
                                                 <li><a href="contact.html">Contact</a></li>
                                             </ul>
                                         </nav>
@@ -106,8 +107,8 @@ session_start()
         <!-- Header End -->
     </header>
     <?php
-  if (isset($_SESSION["mailstatus"]) == "success") {
-  ?>
+    if (isset($_SESSION["mailstatus"]) == "success") {
+    ?>
     <script>
     swal({
         title: "Success!",
@@ -117,16 +118,16 @@ session_start()
     });
     </script>
     <?php
-    unset($_SESSION["mailstatus"]);
-  } else if (isset($_SESSION["mailstatus"]) == "not") {
-  ?>
+        unset($_SESSION["mailstatus"]);
+    } else if (isset($_SESSION["mailstatus"]) == "not") {
+    ?>
     <script>
     swal("Something went wrong !", "Please try after some time!", "error");
     </script>
     <?php
-    unset($_SESSION["mailstatus"]);
-  }
-  ?>
+        unset($_SESSION["mailstatus"]);
+    }
+    ?>
 
     <main>
         <!--? slider Area Start-->
@@ -183,16 +184,28 @@ session_start()
                                 <!-- <span class="element">About Us</span> -->
                                 <h2>ABOUT US</h2>
                             </div>
-                            <p>
-                                We collect and analyze information about your general usage of
-                                the website, products, services, and courses. We might track
-                                your usage patterns to see what features of the website you
-                                commonly use, website traffic volume, frequency of visits,
-                                type and time of transactions, type of browser, browser
-                                language.
+                            <p class="text-justify">
+
+                                The promoters of Neom Building Solutions had begun with a rich professional experience
+                                of twenty years plus in the building material industry. We work closely with the
+                                projects of all major architects, designers, engineers, builders and contractors across
+                                the state. Our vision is to provide the best in quality value added & sustainable
+                                products and after sale services in order to create more satisfied customers as well as
+                                to inspire eco friendly living.<br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;NEOM is at the forefront of delivering
+                                new and innovative
+                                infrastructure
+                                solutions. NEOM
+                                is leading a team of the brightest minds in architecture, engineering and construction
+                                to make the idea of building upwards a reality.<br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Neom provides infrastructure products
+                                and services such as
+                                plywood, block board,
+                                decorative laminates, decorative veneers, medium-density fiberboards (MDF), Laminate
+                                flooring , Glass and Hand rail works.
                             </p>
                         </div>
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                 <div class="experience">
                                     <span>454 m</span>
@@ -205,7 +218,7 @@ session_start()
                                     <p>Countries Covered</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-xl-5 col-lg-6 col-md-9 offset-md-1 offset-sm-1">
                         <div class="about-right-cap">
@@ -237,118 +250,78 @@ session_start()
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="single-cat">
-                                <div class="cat-icon">
-                                    <img src="assets/img/gallery/icon1.png" alt="" />
-                                </div>
-                                <div class="cat-cap">
-                                    <h5><a href="services.html">Quality</a></h5>
-                                    <p>
-                                        We collect and analyze information about your general
-                                        usage of the website, products, services, and courses.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="single-cat">
-                                <div class="cat-icon">
-                                    <img src="assets/img/gallery/icon2.png" alt="" />
-                                </div>
-                                <div class="cat-cap">
-                                    <h5><a href="services.html">Reliablity</a></h5>
-                                    <p>
-                                        We collect and analyze information about your general
-                                        usage of the website, products, services, and courses.
-                                    </p>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="home-blog-area">
+                                <div class="home-blog-single mb-30">
+                                    <div class="blog-img-cap">
+                                        <div class="blog-img">
+                                            <img src="assets/img/gallery/pro2.png" alt="" />
+                                        </div>
+                                        <div class="blog-cap">
+                                            <h3>
+                                                <a>MDF & HDF </a>
+                                            </h3>
+                                            <p class="text-justify">
+                                                MDF boards is generally denser than plywood. It is made
+                                                up of separated fibers, but can be used as a building
+                                                material similar in application to plywood. It is
+                                                stronger and much denser than particle board.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="single-cat">
-                                <div class="cat-icon">
-                                    <img src="assets/img/gallery/icon3.png" alt="" />
-                                </div>
-                                <div class="cat-cap">
-                                    <h5><a href="services.html">Experience</a></h5>
-                                    <p>
-                                        We collect and analyze information about your general
-                                        usage of the website, products, services, and courses.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="single-cat">
-                                <div class="cat-icon">
-                                    <img src="assets/img/gallery/icon4.png" alt="" />
-                                </div>
-                                <div class="cat-cap">
-                                    <h5><a href="services.html">Manufacturing</a></h5>
-                                    <p>
-                                        We collect and analyze information about your general
-                                        usage of the website, products, services, and courses.
-                                    </p>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="home-blog-area">
+                                <div class="home-blog-single mb-30">
+                                    <div class="blog-img-cap">
+                                        <div class="blog-img">
+                                            <img src="assets/img/gallery/pro4.png" alt="" />
+                                        </div>
+                                        <div class="blog-cap">
+                                            <h3>
+                                                <a>WPC Board </a>
+                                            </h3>
+                                            <p class="text-justify">
+                                                Neom WPC is a .7 density board manufactured in
+                                                state-of-the-art European machineries, Incorporating
+                                                European technology and using very high quality raw
+                                                materials to ascertain Good strength that lasts a
+                                                lifetime
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="single-cat">
-                                <div class="cat-icon">
-                                    <img src="assets/img/gallery/icon1.png" alt="" />
-                                </div>
-                                <div class="cat-cap">
-                                    <h5><a href="services.html">Quality</a></h5>
-                                    <p>
-                                        We collect and analyze information about your general
-                                        usage of the website, products, services, and courses.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="single-cat">
-                                <div class="cat-icon">
-                                    <img src="assets/img/gallery/icon2.png" alt="" />
-                                </div>
-                                <div class="cat-cap">
-                                    <h5><a href="services.html">Reliablity</a></h5>
-                                    <p>
-                                        We collect and analyze information about your general
-                                        usage of the website, products, services, and courses.
-                                    </p>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="home-blog-area">
+                                <div class="home-blog-single mb-30">
+                                    <div class="blog-img-cap">
+                                        <div class="blog-img">
+                                            <img src="assets/img/gallery/pro5.png" alt="" />
+                                        </div>
+                                        <div class="blog-cap">
+                                            <h3>
+                                                <a>Particle Board</a>
+                                            </h3>
+                                            <p class="text-justify">
+                                                Particle board – also known as particleboard, lowdensity
+                                                fibreboard (LDF), and chipboard – is an engineered wood
+                                                product manufactured from wood chips, sawmill shavings,
+                                                or even sawdust, and a synthetic resin or other suitable
+                                                binder, which is pressed and extruded.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="single-cat">
-                                <div class="cat-icon">
-                                    <img src="assets/img/gallery/icon3.png" alt="" />
-                                </div>
-                                <div class="cat-cap">
-                                    <h5><a href="services.html">Experience</a></h5>
-                                    <p>
-                                        We collect and analyze information about your general
-                                        usage of the website, products, services, and courses.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="single-cat">
-                                <div class="cat-icon">
-                                    <img src="assets/img/gallery/icon4.png" alt="" />
-                                </div>
-                                <div class="cat-cap">
-                                    <h5><a href="services.html">Manufacturing</a></h5>
-                                    <p>
-                                        We collect and analyze information about your general
-                                        usage of the website, products, services, and courses.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+
+                    </div>
+                    <div class="section-tittle text-center">
+                        <a href="product.html" class="genric-btn primary e-large">More Products</a>
                     </div>
                 </div>
             </div>
@@ -467,20 +440,21 @@ session_start()
                         <div class="col-lg-6 col-md-12">
                             <!-- galary -->
                             <div class="single-gallery">
-                                <div class="gallery-img" style="
-                      background-image: url(assets/img/gallery/gallery2.png);
-                    "></div>
+                                <div class="gallery-img"><iframe class="position-relative rounded w-100 h-100"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.729209875355!2d76.21824!3d10.5219814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ef2701a50ef3%3A0xbe22b5bb9c036060!2sInfinio%20Technical%20Solutions!5e0!3m2!1sen!2sin!4v1668663346162!5m2!1sen!2sin"
+                                        frameborder="0" style="min-height: 300px; border: 0" allowfullscreen=""
+                                        aria-hidden="false" tabindex="0"></iframe></div>
                                 <div class="thumb-content-box">
                                     <div class="thumb-content">
                                         <h3>
                                             <a href="#">Need to make<br />
                                                 an enquiry?</a>
                                         </h3>
-                                        <p>
+                                        <!-- <p>
                                             We collect and analyze information about your general
                                             usage of the website products.
                                         </p>
-                                        <a href="services.html">Learn More</a>
+                                        <a href="services.html">Learn More</a> -->
                                     </div>
                                 </div>
                             </div>
@@ -605,14 +579,14 @@ session_start()
       </section> -->
         <!-- Blog Area End -->
         <!--?  Map Area start  -->
-        <section class="Map-area">
+        <!-- <section class="Map-area">
             <div class="col-12 pb-5">
                 <iframe class="position-relative rounded w-100 h-100"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.729209875355!2d76.21824!3d10.5219814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ef2701a50ef3%3A0xbe22b5bb9c036060!2sInfinio%20Technical%20Solutions!5e0!3m2!1sen!2sin!4v1668663346162!5m2!1sen!2sin"
                     frameborder="0" style="min-height: 300px; border: 0" allowfullscreen="" aria-hidden="false"
                     tabindex="0"></iframe>
             </div>
-        </section>
+        </section> -->
         <!-- Map Area End -->
         <!-- Want To work 2-->
         <section class="wantToWork-area">
@@ -682,7 +656,7 @@ session_start()
     <!-- Search model end -->
     <!-- Scroll Up -->
     <div id="back-top">
-        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+        <a href="www.infinio.co.in" title="Go to Top"> <i class="fab fa-whatsapp"></i></a>
     </div>
 
     <!-- JS here -->
