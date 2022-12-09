@@ -54,11 +54,12 @@ session_start()
                                 <div class="header-info-left">
                                     <ul>
                                         <li>
-                                            <i class="fas fa-phone"></i><a href="tel:+91 89210 31275">+91 89210
-                                                31275</a>
+                                            <i class="fas fa-phone"></i><a href="tel:+91 88480 05487">+91 88480
+                                                05487</a>
                                         </li>
                                         <li>
-                                            <i class="far fa-envelope"></i>brexitsupport@gmail.com
+                                            <i class="far fa-envelope"></i><a href="mailto:neomindia22@gmail.com ">
+                                                neomindia22@gmail.com </a>
                                         </li>
                                     </ul>
                                 </div>
@@ -633,8 +634,8 @@ session_start()
                             <!-- Footer Social -->
                             <div class="footer-social f-right">
                                 <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fas fa-globe"></i></a>
+                                <a href="https://www.facebook.com/neombuildingsolutions/"><i
+                                        class="fab fa-facebook-f"></i></a> <a href="#"><i class="fas fa-globe"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -656,7 +657,7 @@ session_start()
     <!-- Search model end -->
     <!-- Scroll Up -->
     <div id="back-top">
-        <a href="www.infinio.co.in" title="Go to Top"> <i class="fab fa-whatsapp"></i></a>
+        <a href="https://wa.me/918848005487" title="Go to Top"> <i class="fab fa-whatsapp"></i></a>
     </div>
 
     <!-- JS here -->
