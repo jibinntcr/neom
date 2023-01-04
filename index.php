@@ -54,8 +54,8 @@ session_start()
                                 <div class="header-info-left">
                                     <ul>
                                         <li>
-                                            <i class="fas fa-phone"></i><a href="tel:+91 88480 05487">+91 88480
-                                                05487</a>
+                                            <i class="fas fa-phone"></i><a href="tel:+91 89210 31275">+91 89210
+                                                31275</a>
                                         </li>
                                         <li>
                                             <i class="far fa-envelope"></i><a href="mailto:neomindia22@gmail.com ">
@@ -64,8 +64,10 @@ session_start()
                                     </ul>
                                 </div>
                                 <div class="header-info-right">
-                                    <a href="#" class="genric-btn primary e-large">Product Catalogue</a>
-                                    <!-- <a href="#" class="send-btn">Product Catalogue <i class="ti-arrow-right"></i></a> -->
+                                    <a href="https://bit.ly/NeomProducts" class="genric-btn primary e-large"
+                                        target="_blank">Product
+                                        Catalogue</a>
+                                    <!-- <a href="#" class="send-btn">Product Catelogue<i class="ti-arrow-right"></i></a> -->
                                 </div>
                             </div>
                         </div>
