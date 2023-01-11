@@ -61,7 +61,7 @@ if (isset($_POST['submit'])) {
     $mail->Port = 587;
     //Recipients
     $mail->setFrom('contactusinfinio@gmail.com', 'Neom WebSite'); //SENDER MAIL ID
-    $mail->addAddress('jerryaksa97@gmail.com'); //RECIVER MAIL ID
+    $mail->addAddress('info@infinio.co.in'); //RECIVER MAIL ID
     //Content
     $mail->isHTML(true);
     $mail->Subject = $subject;
