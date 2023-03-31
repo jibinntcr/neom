@@ -434,13 +434,13 @@ session_start()
                         <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10">
                             <div class="section-tittle text-center mb-100">
                                 <!-- <span class="element">Contact</span> -->
-                                <h2>CONTACT US</h2>
+                                <h2>Get in Touch</h2>
                             </div>
                         </div>
                     </div>
                     <!-- testimonial  -->
                     <div class="row no-gutters">
-                        <div class="col-lg-6 col-md-12">
+                        <div class="col-lg-12 col-md-12">
                             <!-- galary -->
                             <div class="single-gallery">
                                 <div class="gallery-img"><iframe class="position-relative rounded w-100 h-100"
@@ -462,8 +462,7 @@ session_start()
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-12">
-                            <!-- contact-form -->
+                        <!-- <div class="col-lg-6 col-md-12">
                             <div class="form-wrapper">
                                 <div class="row">
                                     <div class="col-xl-12">
@@ -498,16 +497,6 @@ session_start()
                                                 <input type="text" name="subject" id="subject" placeholder="Subject" />
                                             </div>
                                         </div>
-                                        <!-- <div class="col-lg-12 col-md-6 mb-15">
-                        <div class="select-itms">
-                          <select name="select" id="select2">
-                            <option value="">Topic</option>
-                            <option value="">Topic one</option>
-                            <option value="">Topic Two</option>
-                            <option value="">Topic Three</option>
-                          </select>
-                        </div>
-                      </div> -->
                                         <div class="col-lg-12">
                                             <div class="form-box message-icon mb-15">
                                                 <textarea name="message" id="message" placeholder="Message"
@@ -522,7 +511,7 @@ session_start()
                                     </div>
                                 </form>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
