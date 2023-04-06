@@ -145,7 +145,7 @@ session_start()
                     </div>
                 </div>
                 <!-- Single Slider -->
-                <div class="single-slider slider-height d-flex align-items-center">
+                <!-- <div class="single-slider slider-height d-flex align-items-center">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-7 col-lg-9 col-md-8 col-sm-9">
@@ -162,7 +162,7 @@ session_start()
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <!-- Video icon -->
             <!-- <div class="video-icon">
@@ -310,7 +310,7 @@ session_start()
                                                 <a>Particle Board</a>
                                             </h3>
                                             <p class="text-justify">
-                                                Particle board – also known as particleboard, lowdensity
+                                                Particle board – also known as particleboard, low density
                                                 fibreboard (LDF), and chipboard – is an engineered wood
                                                 product manufactured from wood chips, sawmill shavings,
                                                 or even sawdust, and a synthetic resin or other suitable
@@ -447,19 +447,19 @@ session_start()
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.729209875355!2d76.21824!3d10.5219814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ef2701a50ef3%3A0xbe22b5bb9c036060!2sInfinio%20Technical%20Solutions!5e0!3m2!1sen!2sin!4v1668663346162!5m2!1sen!2sin"
                                         frameborder="0" style="min-height: 300px; border: 0" allowfullscreen=""
                                         aria-hidden="false" tabindex="0"></iframe></div>
-                                <div class="thumb-content-box">
-                                    <div class="thumb-content">
-                                        <h3>
+                                <!-- <div class="thumb-content-box">
+                                    <div class="thumb-content"> -->
+                                <!-- <h3>
                                             <a href="#">Need to make<br />
                                                 an enquiry?</a>
-                                        </h3>
-                                        <!-- <p>
+                                        </h3> -->
+                                <!-- <p>
                                             We collect and analyze information about your general
                                             usage of the website products.
                                         </p>
                                         <a href="services.html">Learn More</a> -->
-                                    </div>
-                                </div>
+                                <!-- </div>
+                                </div> -->
                             </div>
                         </div>
                         <!-- <div class="col-lg-6 col-md-12">
@@ -594,8 +594,8 @@ session_start()
                         </div>
                         <div class="col-xl-8 col-lg-8 col-md-8">
                             <div class="double-btn f-right">
-                                <a href="#" class="btn w-btn wantToWork-btn mr-20">Learn More <i
-                                        class="ti-arrow-right"></i></a>
+                                <!-- <a href="#" class="btn w-btn wantToWork-btn mr-20">Learn More <i
+                                        class="ti-arrow-right"></i></a> -->
                                 <!-- <a href="#" class="btn2 w-btn wantToWork-btn"
                     >Learn More <i class="ti-arrow-right"></i
                   ></a> -->
